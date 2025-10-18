@@ -1,0 +1,131 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #2b1055, #7597de);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 10px #00f0ff;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    width: 80%;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+fieldset {
+    border: 2px solid #00f0ff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #00f0ff;
+    font-family: 'Orbitron', sans-serif;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 98%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+/* ===== Feedback Visual ===== */
+input:focus, select:focus, textarea:focus {
+    border-color: #00f0ff;
+}
+
+input:valid {
+    border-color: #00ff7f;
+}
+
+input:invalid {
+    border-color: #ff6b6b;
+}
+
+/* ===== Botões ===== */
+button {
+    background-color: #00f0ff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #00ff7f;
+    transform: scale(1.05);
+}
+
+.botoes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ===== Ajuste no textarea ===== */
+textarea {
+    resize: vertical;
+}
+
+/* ===== Alinhamento perfeito de radio e checkbox ===== */
+.opcoes-radio, .opcoes-checkbox {
+    display: flex;
+    flex-wrap: wrap; /* permite quebrar linha se necessário */
+    gap: 15px; /* espaço entre opções */
+    margin-top: 5px;
+}
+
+.opcoes-radio label,
+.opcoes-checkbox label {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* espaço entre input e texto */
+    margin: 0;
+}
+
+.opcoes-radio input,
+.opcoes-checkbox input {
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+/* ===== Responsividade ===== */
+@media (max-width: 600px) {
+    form {
+    width: 95%;
+    }
+
+    .opcoes-radio,
+    .opcoes-checkbox {
+    flex-direction: column; /* empilha opções no celular */
+    gap: 5px;
+    }
+}
