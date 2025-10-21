@@ -59,9 +59,9 @@ A ficha deve permitir que o usuário preencha e envie informações sobre o seu 
 - Ative o autocomplete no campo de e-mail.
 - Adicione um autofocus no campo de nome do personagem.
 - Inclua uma mensagem final após o envio simulando:
-``
+```
 “Ficha enviada com sucesso! Sua inscrição na Guilda foi registrada.”
-``
+```
 
 
 ##  💻 Stack utilizada
