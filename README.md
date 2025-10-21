@@ -62,14 +62,11 @@ Vermelho → inválido (:invalid)
 - Adicione um autofocus no campo de nome do personagem.
 - Inclua uma mensagem final após o envio simulando:
 Ficha enviada com sucesso! Sua inscrição na Guilda foi registrada.
-
 ##  💻 Stack utilizada
 
 - **HTML5**
 
 - **CSS3**
-
-
 ##  🚀 Deploy
 
 1. Clone ou baixe este repositório.
@@ -78,9 +75,6 @@ Ficha enviada com sucesso! Sua inscrição na Guilda foi registrada.
   git clone https://github.com/alinetakai/ficha-de-personagem-digital
 ```
 2. Abra o arquivo `index.html` em seu navegador.
-
-
-
 ## 😉 Licença
 
 - **Permissão de Uso:** O código pode ser usado somente para fins educacionais.
@@ -88,8 +82,6 @@ Ficha enviada com sucesso! Sua inscrição na Guilda foi registrada.
 - **Inclusão da Licença:** Ao redistribuir o software, a licença original e o aviso de direitos autorais devem ser incluídos no código fonte ou na documentação, garantindo que futuros usuários conheçam seus direitos.
 - **Isenção de Garantia:** O software é fornecido "como está", sem garantias de qualquer tipo, explícitas ou implícitas. Os autores não são responsáveis por quaisquer danos decorrentes do uso do software.
 - **Este projeto foi criado para fins educacionais e não possui vínculo oficial com o jogo original Atari Breakout.**
-
-
 ## 👩‍💻 Autora
 
 - [@alinetakai](https://github.com/alinetakai)
