@@ -49,8 +49,8 @@ Botões:
 - Fundo com degradê sutil (ex: roxo escuro → azul)
 - Inputs com bordas arredondadas, destaque com :focus
 - Cores de feedback:
-    - Verde → válido (:valid)
-    - Vermelho → inválido (:invalid)
+Verde → válido (:valid)
+Vermelho → inválido (:invalid)
 - Agrupamentos com <fieldset> e <legend> para cada categoria (Ex: “Identidade”, “Habilidades”, “Configurações”)
 - Um hover estilizado para o botão principal
 - Tipografia moderna (ex: “Poppins” ou “Orbitron” para clima geek)
