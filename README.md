@@ -62,6 +62,8 @@ A ficha deve permitir que o usuário preencha e envie informações sobre o seu 
 ``
 “Ficha enviada com sucesso! Sua inscrição na Guilda foi registrada.”
 ``
+
+
 ##  💻 Stack utilizada
 
 - **HTML5**
