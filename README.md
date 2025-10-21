@@ -25,22 +25,24 @@ A ficha deve permitir que o usuário preencha e envie informações sobre o seu 
 🧱 **Estrutura**
 
 - <form> com method="post".
-- Campos:
-    - Nome do personagem (text, required)
-    - Raça (menu <select> com opções como Humano, Elfo, Androide, etc.)
-    - Classe (radio) – Guerreiro, Mago, Hacker, Curandeiro…
-    - Nível (number, min e max)
-    - Poder principal (text com placeholder)
-    - Habilidade especial (textarea)
-    - Cor do emblema (color)
-    - Avatar (file)
-    - Data de criação do personagem (date)
-    - Código de acesso secreto (password)
-    - Campo de e-mail para envio da ficha (email)
-    - Campo para selecionar facção (checkbox múltiplo – Ex: “Luz”, “Sombra”, “Neutros”)
-- Botões:
-    - Enviar ficha (submit)
-    - Limpar tudo (reset)
+
+Campos:
+- Nome do personagem (text, required)
+- Raça (menu <select> com opções como Humano, Elfo, Androide, etc.)
+- Classe (radio) – Guerreiro, Mago, Hacker, Curandeiro…
+- Nível (number, min e max)
+- Poder principal (text com placeholder)
+- Habilidade especial (textarea)
+- Cor do emblema (color)
+- Avatar (file)
+- Data de criação do personagem (date)
+- Código de acesso secreto (password)
+- Campo de e-mail para envio da ficha (email)
+- Campo para selecionar facção (checkbox múltiplo – Ex: “Luz”, “Sombra”, “Neutros”)
+
+Botões:
+- Enviar ficha (submit)
+- Limpar tudo (reset)
 
 🎨 **Estilo**
 
